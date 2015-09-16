@@ -39,7 +39,7 @@ class Foo {
         return true
     }
     
-//: The compiler does not like this for loop because it tries to change the variable i when it is declared as a let, thus it should be a var. It should return true if all the elements in the array are a palindrome. I also changed var numElements to a let because it is never changed.
+//: The compiler does not like this for loop because it tries to change the variable i when it is declared as a let, thus it should be a var. It should return true if all the elements in the array are a palindrome. I also changed var numElements to a let because it is never changed. I also changed it to a class func to make it a class method rather than an instance method.
     
     
     
@@ -85,7 +85,7 @@ class Foo {
     }
 }
 
-//: We need to change Bool? to Bool! since we want it unwrapped and we know the a Bool should be true or false rather than having it be able to return nil. We are initializing the dictionary incorrectly and should be done with an = and a function call. I changed letter to _ because it was never used in the loop and i changed the len variables to lets because they were never changed.
+//: We need to change Bool? to Bool! since we want it unwrapped and we know the a Bool should be true or false rather than having it be able to return nil. We are initializing the dictionary incorrectly and should be done with an = and a function call. I changed letter to _ because it was never used in the loop and i changed the len variables to lets because they were never changed. I also changed it to a class func to make it a class method rather than an instance method.
 
 
 //: **Do not** change anything below.
